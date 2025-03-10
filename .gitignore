@@ -25,10 +25,6 @@ charts/
 Dockerfile*
 .dockerignore
 
-# Node.js
-node_modules/
-npm-debug.log
-
 # Java
 *.class
 *.jar
@@ -44,3 +40,12 @@ npm-debug.log
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+
+# =====================
+# Node.js & React Ignore Rules
+# =====================
+node_modules/
+npm-debug.log
+yarn.lock
+
