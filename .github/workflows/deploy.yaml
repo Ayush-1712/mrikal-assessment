@@ -26,6 +26,7 @@ jobs:
             cd ~/app || git clone https://github.com/${{ github.repository }} ~/app
             cd ~/app
             git pull origin master
+            cd ~/app/three-tier-app
             docker-compose down
             docker-compose up --build -d
           EOF
