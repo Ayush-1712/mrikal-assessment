@@ -4,7 +4,7 @@ resource "aws_key_pair" "demo_key" {
 }
 
 resource "aws_instance" "test_instance" {
-  ami           = "ami-05c179eced2eb9b5b"  
+  ami           = "ami-00bb6a80f01f03502"  
   instance_type = "t2.micro"
   key_name = aws_key_pair.demo_key.key_name
 
